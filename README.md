@@ -7,8 +7,12 @@ Before running script check your router ipby following command
 route -n
 
 ----------------------------------------------------------------------
-clone the git
-works with python3 
+git clone https://github.com/iamirror/mynetwork
+chmod +x *
+python3 scan_my_network.py
+-----------------------------------------------------------------------
+if scapy not installed 
+pip install scapy
 
 input format : give your subnet format i.e (255:255:255:1/24)
 
